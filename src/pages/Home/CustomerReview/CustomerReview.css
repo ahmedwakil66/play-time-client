@@ -1,0 +1,30 @@
+.customer-review-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    color: rgb(63 98 18) ;
+    
+}
+
+.customer{
+    padding: 25px;
+    max-width: 30rem;
+    background-color: #F8F8F8;
+    border-radius: 50px 10px;
+}
+
+.customer-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+
+    .customer-review-container{
+        flex-direction: column;
+        padding: 0 10px;
+        
+    }
+    
+}
+

@@ -1,0 +1,39 @@
+
+.toys-table{
+    width: 100%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.toys-table th{
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.toys-table td{
+    padding: 10px;
+}
+
+.toys-table tr:nth-child(even){
+    background-color: rgb(238, 223, 204);
+}
+
+
+.table-action button{
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 7px auto;
+    font-size: .9rem;
+    display: block;
+    min-width: 70px;
+    background-color: var(--btn-primary);
+    transition: .3s;
+}
+
+.table-action button:hover{
+    transform: scale(1.1);
+}
+
+.toys-table tfoot tr{
+    text-align: center;
+}

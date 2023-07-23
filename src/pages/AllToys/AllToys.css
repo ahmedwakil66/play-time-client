@@ -1,0 +1,31 @@
+
+.toy-search-div{
+    margin-bottom: 1.5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 5fr 1fr;
+}
+
+.toy-search-div input{
+    padding: .7rem;
+    font-size: 1.3rem;
+    border-radius: 5px 0 0 5px;
+}
+
+.toy-search-div button{
+    font-size: 1.3rem;
+}
+
+.toy-search-div button:hover{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 567px) {
+    .toy-search-div input{
+        padding: .5rem;
+        font-size: 1rem;
+    }
+    .toy-search-div button{
+        font-size: 1rem;
+    }
+}

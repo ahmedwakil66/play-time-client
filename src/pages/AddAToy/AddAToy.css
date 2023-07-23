@@ -1,0 +1,38 @@
+.add-a-toy{
+    max-width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.add-a-toy input, .add-a-toy textarea, .add-a-toy select{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+
+.add-a-toy label{
+    font-weight: 600;
+}
+
+.add-a-toy > div {
+    margin: 1rem;
+}
+
+.add-a-toy textarea{
+    resize: vertical;
+}
+
+.add-a-toy button{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.add-a-toy select{
+    padding: 11px;
+}

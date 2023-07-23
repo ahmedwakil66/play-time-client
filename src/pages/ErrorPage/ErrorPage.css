@@ -1,0 +1,12 @@
+.error-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5CB6C4;
+    background-image: url('https://i.ibb.co/BwXDHpY/404-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.error-page p{
+    
+}

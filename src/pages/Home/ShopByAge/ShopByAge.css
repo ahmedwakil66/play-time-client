@@ -1,0 +1,25 @@
+.age-shop-container{
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 1.5rem;
+}
+
+.item{
+    max-width: 210px;
+    cursor: pointer;
+}
+
+.item img{
+    border-radius: 50%;
+}
+
+.details p {
+    font-size: 20px;
+    font-weight: 700;
+}

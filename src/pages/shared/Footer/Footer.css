@@ -1,0 +1,77 @@
+.footer{
+    background-color: rgba(255, 166, 0, 0.254);
+    padding: 40px 0 40px 0;
+}
+
+.footer-logo{
+    margin-top: -1.15rem;
+}
+
+.footer hr{
+    height: 0;
+    border: 1px solid rgba(255, 136, 0, 0.375);
+    margin-top: 25px;
+}
+
+
+.footer-message-dev{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.message-submit{
+    background-color: rgb(255, 166, 0);
+    max-width: 3z50px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+.footer-submit-btn{
+    background-color: bisque;
+    padding: 0 5px;
+    border-radius: 0 5px 5px 0;
+
+}
+
+.footer-input{
+    padding: 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-item-section{
+    margin: 50px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icon-container{
+    display: flex;
+    gap:  10px;
+    padding-left: 10px;
+}
+
+.footer-item-title{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+
+.tecno{
+    margin: 15px 0 10px 0;
+}
+
+.footer-item-section li {
+    margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .footer-item-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+  }
